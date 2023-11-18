@@ -1,3 +1,5 @@
+"use client"
+
 // IMPORTING CSS
 import "../globals.css"
 import "../signup/signUpPage.css"
