@@ -22,7 +22,12 @@ const signup = () => {
       <div id="signUpPage" className="">
 
         {/* WHITE BOX */}
-        <div id="signUpPageWhiteBox" className=" w-2/4 bg-white">
+        <div id="signUpPageWhiteBox" className=" w-2/4 bg-white flex justify-center items-center">
+
+          <div className=" ff-league text-[12rem] text-[#37366A]">
+            <p>College</p>
+            <p className="text-6xl relative bottom-16 left-14">Connect</p>
+          </div>
 
         </div>
 
@@ -44,28 +49,50 @@ const signup = () => {
 
 
 
+            {/* THE SIGNUP WRITING */}
+            <p className="signup ff-league text-8xl mb-16">SignUp</p>
 
-            <p className="signup ff-league text-8xl">SignUp</p>
+
+
+
+
+            {/* THE FORM */}
 
             <div className="form ff-space">
 
               <div className="flex flex-col justify-between">
-                <label htmlFor="Email" className="">Email</label>
-                <input type="email" />
+
+                <label htmlFor="Email" className=" text-xl">Email</label>
+                <input className="w-[24rem] h-[3rem] mb-4 text-black  px-4 " type="email" />
+
               </div>
 
               <div className="flex flex-col justify-between">
-                <label htmlFor="Password">Password</label>
-                <input type="password" />
+
+                <label htmlFor="Password" className=" text-xl">Password</label>
+                <input className="w-[24rem] h-[3rem] mb-4 text-black  px-4 " type="password" />
+
               </div>
 
               <div className="flex flex-col justify-between">
-                <label htmlFor="Password">Confirm Password</label>
-                <input type="password" />
+
+                <label htmlFor="Password" className=" text-xl">Confirm Password</label>
+                <input className="w-[24rem] h-[3rem] mb-4 text-black  px-4 " type="password" />
+
               </div>
 
+              <div className=" mt-4">
+                <p className=" text-white ff-space text-lg">Or <span className=" text-[#FF0000]">Login</span></p>
+              </div>
 
             </div>
+
+
+
+
+
+
+
 
           </div>
 
