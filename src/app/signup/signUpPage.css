@@ -1,0 +1,39 @@
+#signUpPage{
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SIGNUP PAGE GREY BOX */
+
+#signUpPageGreyBox{
+    padding: 6rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpFormWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    height: 100%;
+    width: 100%;
+
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    /* align-items: center; */
+}
